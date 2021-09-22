@@ -1,0 +1,155 @@
+1. What is HAL
+HAL is a multi-disciplinary open access archive for the deposit and dissemination of scientific research documents, whether they are published or not.
+
+2. What is segmentation in document image analysis?
+In document image analysis, segmentation is the task that identifies the regions of a document.
+
+3. What is RLSA
+Run-Length Smoothing Algorithm
+
+4. Name the possible applications of segmentation algorithms.
+Segmentation algorithms can be applied in document images, natural images, medical images, 3D meshes.
+
+5. What type of document are surveyed?
+Journals, comics, advertisement, magazine covers, 
+
+6. What can musical writings be considered as?
+Textual Documents
+
+7. What are the 3 groups, document segmentation algorithms are classified into?
+Top-down, bottom-up, and hybrid algorithms.
+
+8. What are the main categories of color depth
+there are three main types of color depth: black and white (BW), gray level (GL) and color (C).
+
+9. What are the 3 tyopology of document segmentation algorithms?
+Algorithm constrained
+Parameter constrained
+Potentially  unconstrained
+
+10. How the algorithms were classified.
+Based on their core technique.
+
+11. What are the Algorithm constrained document segmentation algorithms?
+The algorithms that make clear assumptions about the document layout.
+The algorithms that use filtering techniques to make the document regions appear. 
+The algorithms that try to identify straight lines.
+
+12. What is the speciality of algorithms in group 2?
+They try to adapt to local variations in the document in order to be able to segment a broader range of layouts with the same algorithm.
+
+13. How many subcategories are in group two?
+4
+
+14. What are the subcategories of group 2.
+The clustering algorithms
+The algorithms based on function analysis
+The classification algorithms
+
+15. How does algorithms in group 3 overcome the limitations of the previous groups?
+They try to overcome the limitations of the other algorithms by combining them or by using artificial intelligence.
+
+16. How do hybrid algorithms work?
+The hybrid algorithms combine several other algorithms in symbiosis
+
+17. How do the combination algorithms work?
+The combination algorithm combines the results of several algorithms to effectively improve them.
+
+18. How do neural algorithms work?
+The neural network algorithms make use of artificial intelligence to automatically learn significant features.
+
+19. What is DMOS
+DMOS is a layout grammar language
+
+20. How many algorithms are there of type “projection profiles”
+7
+
+21. How many algorithms are there of type “Mathematical morphology”
+Six
+
+22. What makes RLSA computationally more efficient?
+Replacing the logical AND of RLSA by an OR.
+
+23. What are the most popular type of segmentation algorithms?
+ Segmentation based on clustering
+
+24. What features the vast majority of clustering algorithms use?
+Geometric Features
+
+25. What are the geometric features that black and white algorithms use?
+distance, area, density
+
+26. How does the Pinson and Barret’s algorithm automatically select the appropriate feature?
+It selects the first 100 feature vectors of a Principal Component Analysis (PCA) of the character images.
+
+27. How can regions of structured documents be extracted?
+By using Gabor (texture) features with a CRF.
+
+28. How many algorithms use color information?
+8
+
+29. What binarization technique is usually avoided?
+error diffusion (dithering).
+
+29. What are the 3 industry leading benchmarks?
+MADCAT by DARPA, RIMES2  A2iA and MAURDOR3 by the DGA.
+
+30. Which one is the most comprehensive benchmark?
+MAURDOR. It contains more than 8000 color documents with a complete ground-truth
+
+31. What scripts does the MAURDOR dataset not contain?
+Asian or Cyrillic scripts
+
+32. Name one flagship conference in the document analysis community.
+ICDAR. 
+
+33. What are the top 5 most studied languages in the document analysis community?
+English, German, French, Arabic and Chinese
+
+34. How does segmentation based on filtering algorithms work?
+These algorithms usually use specific predefined filters to segment a given type of content. They frequently rely on assumptions that the text lines are straight and/or horizontal.
+
+35. What are geometric features used to compute binary images?
+minimum spanning tree between the connected components of the binary image.
+
+36. How has the parallel line regression algorithm been improved?
+It was improved by creating queues of horizontal and vertical neighbors of every connected component.
+
+37. Which authors segmented propaganda posters?
+Clavelli and Karatzas
+
+39. How can the noise in pixel clustering techniques be reduced?
+By using multi-resolution approach
+
+40. What features outperform auto-correlation and co-occurrence texture features?
+Gabor texture features.
+
+41. How does function optimization algorithms work?
+They usually define a cost or energy function which needs to be minimized.
+
+42. Which algorithm of historical document segmentation falls into the category of texture classification.
+Dynamic Multi-Layer Perceptrons (DMLP)
+
+43. What technique is used along with SVM to classify the text as handwritten or typewritten.
+Gradient Shape Features (GSF)
+
+44. What does the MADCAT benchmark aim for?
+Creating a system to automatically categorize and translate any document into English.
+
+45. What is RIMES?
+RIMES is a data set of handwritten letters that has been used for several competitions
+
+46. What datasets are recommended for Historical documents?
+St. Gall, Parzival and Washington triptych datasets.
+
+47. Why do classification algorithms require more datasets?
+For high dimensionality.
+
+48. What is a versatile document segmentation algorithm?
+Algorithm capable of dealing with a wide range of documents.
+
+49. Most evaluations are based on which principles?
+False alarms (adding a region), misses (removing a region), merges (two or more regions in one), splits (one region in two or more) and matches (properly segmented region).
+
+50. What improvements are still needed to be made in the field of algorithms for document segmentation?
+Improvements in the versatility of the algorithms, their stability and their cross-technique comparison.
